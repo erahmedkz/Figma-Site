@@ -1,0 +1,78 @@
+.mainBannerSection {
+  position: relative;
+  width: 100%;
+  height: 880px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.bannerBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url('https://images.pexels.com/photos/3772622/pexels-photo-3772622.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  z-index: 1;
+}
+
+.bannerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background: radial-gradient(30.56% 76.04% at 74.58% 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  z-index: 2;
+}
+
+.bannerContent {
+  position: relative;
+  width: 50%;
+  padding: 20px;
+  margin-left: 83px;
+  z-index: 3;
+  padding-top: 248px;
+}
+
+.contentCategory {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.bannerHeading {
+  font-family: 'Sen', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.authorDetails {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.bannerDescription {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.primaryButton {
+  background-color: #FFD050;
+  border: none;
+  color: black;
+  padding: 16px 48px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

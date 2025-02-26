@@ -1,0 +1,152 @@
+.originBlock {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1280px;
+  margin: 128px auto;
+  padding: 0 80px;
+}
+.storyWrapper {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 128px 80px;
+}
+.container {
+  max-width: 1280px;
+  margin: 128px auto;
+  padding: 0 80px;
+  position: relative;
+}
+.imageSection {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.textContent {
+  max-width: 624px;
+  margin-top: 32px;
+}
+.label {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+}
+.title {
+  font-size: 48px;
+  line-height: 64px;
+  color: #232536;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  margin-bottom: 32px;
+}
+.button {
+  padding: 16px 48px;
+  background: #FFD050;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .container {
+    margin: 64px auto;
+    padding: 0 20px;
+  }
+  .imageSection {
+    height: 300px;
+  }
+  .textContent {
+    max-width: 100%;
+  }
+}
+.storyContainer {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  justify-content: flex-start;
+}
+.imageWrapper {
+  width: 50%;
+}
+.storyImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.contentBox {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  background: #FFFFFF;
+  padding: 80px;
+}
+.content {
+  max-width: 546px;
+}
+.tagline {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  margin-bottom: 24px;
+  display: block;
+}
+.heading {
+  font-size: 48px;
+  line-height: 64px;
+  color: #232536;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  margin-bottom: 32px;
+}
+.ctaButton {
+  padding: 16px 48px;
+  background: #FFD050;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .storyContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .imageWrapper {
+    width: 100%;
+  }
+  .contentBox {
+    position: static;
+    width: 100%;
+    transform: none;
+    padding: 40px 20px;
+  }
+}
